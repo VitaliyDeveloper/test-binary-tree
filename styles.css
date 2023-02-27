@@ -34,7 +34,7 @@
     flex-wrap: wrap;
 }
 
-/* Стили для узла дерева */
+
 .node {
     display: flex;
     justify-content: center;
@@ -48,7 +48,7 @@
     background-color: white;
 }
 
-/* Стили для пустого места в дереве */
+
 .empty-container {
     display: flex;
 }
