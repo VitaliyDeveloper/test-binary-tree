@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* .node {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(165, 183, 236);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(165, 183, 236);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+} */
+
+#tree-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* Стили для узла дерева */
+.node {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+}
+
+/* Стили для пустого места в дереве */
+.empty-container {
+    display: flex;
+}
+
+.empty {
+
+    width: 50px;
+    height: 50px;
+    border: 2px dashed gray;
+    background-color: white;
+}
